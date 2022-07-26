@@ -4,11 +4,48 @@ body {
 
 .header {
   width: 100%;
-  height: 91px;
+  height: 55px;
   background-color: #128c7e;
+  padding-top: 35px;
+  margin-top: -150px;
   position: fixed;
 }
-
+.about {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin-left: 50px;
+}
+.header_content {
+  width: fit-content;
+  height: fit-content;
+  margin-left: 340px;
+}
+.language {
+  margin-left: 70px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #128c7e;
+  border-style: none;
+  font-weight: 400;
+}
+.main_logo {
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin-left: 130px;
+  margin-top: -15px;
+  background-image: url("whatsapp_main.png");
+  height: 45.1px;
+  width: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .content {
   background-color: #ffffff;
   width: 100%;
@@ -60,52 +97,51 @@ body {
   width: 100%;
   height: 400px;
   padding-top: 50px;
-
 }
 
-.footer_1_main{
-    width: 1050px;
-  
-    height:350px;
-    margin-left: 65px;
-    padding-left: 250px;
+.footer_1_main {
+  width: 1050px;
+
+  height: 350px;
+  margin-left: 65px;
+  padding-left: 250px;
 }
 
-.main_1{
-    width:20%;
-    height: 350px;
-    float: left;
-    text-align: left;
-    color:#ffffff;
-font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 19px;
+.main_1 {
+  width: 20%;
+  height: 350px;
+  float: left;
+  text-align: left;
+  color: #ffffff;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
 }
-.main_2{
-    width:20%;
-    height: 350px;
-    float: left;
-    text-align: left;
-    color:#ffffff;
-font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 19px;
+.main_2 {
+  width: 20%;
+  height: 350px;
+  float: left;
+  text-align: left;
+  color: #ffffff;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
 }
-.main_3{
-    width:20%;
-    height: 350px;
-    float: left;
-    text-align: left;
-    color:#ffffff;
-font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 19px;
+.main_3 {
+  width: 20%;
+  height: 350px;
+  float: left;
+  text-align: left;
+  color: #ffffff;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
 }
-.main_4{
-    width:20%;
-    height: 350px;
-    float: left;
-    text-align: left;
-    color:#ffffff;
-font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 19px;
+.main_4 {
+  width: 20%;
+  height: 350px;
+  float: left;
+  text-align: left;
+  color: #ffffff;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
 }
 
 .footer_2 {
@@ -116,7 +152,7 @@ font-size: 19px;
 .main_body {
   background-color: #ffffff;
   width: 100%;
-  height: 750px;
+  height: 600px;
 }
 .copy {
   width: 190px;
@@ -126,7 +162,7 @@ font-size: 19px;
   font-weight: 500;
   float: left;
   margin-top: 25px;
-  margin-left: 150px;
+  margin-left: 125px;
 }
 
 .terms {
@@ -137,46 +173,139 @@ font-size: 19px;
   font-weight: 500;
   float: right;
   margin-top: 25px;
-  margin-right: 150px;
+  margin-right: 170px;
 }
 
-.about{
-    color: #FFFFFF;
-    font-size: 16px;
-    text-decoration: none;
-    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-font-weight: 400;
-margin-left: 50px;
+.title {
+  font-weight: 10000px;
 }
-.header_content{
-    width: 1000px;
-    margin-left: 340px;
-    margin-top: 35px;
+.dot {
+  margin-left: 25%;
+  margin-top: 10%;
+  height: 350px;
+  width: 350px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  background: url(content1.png);
+  background-position: 40%;
+  background-size: cover;
 }
-.language{
-    margin-left: 70px;
-    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: #FFFFFF;
-    font-size: 16px;
-    text-decoration: none;
-    background-color: #128c7e;
-    border-style: none;
-    font-weight: 400;
 
+.h1 {
+  width: fit-content;
+  height: fit-content;
+  color: #5f5f5f;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-left: 35%;
 }
-.main_logo{
-    width: 300px;
-    height: 50px;
-    float:left;
-    margin-left: 130px;
-    margin-top: 20px;
-    background-image: url("whatsapp_main.png"); /* The image  /* Used if the image is unavailable */
-  height: 45.1px; /* You must set a specified height */
-  width: 170px;
+.h2 {
+  margin-left: 30%;
+  margin-top: 10px;
+  width: fit-content;
+  height: fit-content;
+  color: black;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 34px;
+  direction: ltr;
+  line-height: 1.34;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+.h3 {
+  width: 81%;
+  margin-left: 10%;
+  margin-top: 20px;
+  height: fit-content;
+  color: #1c1e21;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-align: center;
+}
+.phone_img {
+  width: 50px;
+  height: 400px;
+  margin-left: 70px;
+  margin-top: 50px;
+  background-image: url("phone.png"); /* The image  /* Used if the image is unavailable */
+  height: 400px; /* You must set a specified height */
+  width: 500px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
-.title{
-    font-weight: 10000px;
+
+.wapp_buisness {
+  width: fit-content;
+  margin-top: 90px;
+  margin-left: 18%;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.wapp_text {
+  width: 81%;
+  margin-left: 10%;
+  margin-top: 50px;
+  height: fit-content;
+  color: #1c1e21;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.land_content {
+  width: 800px;
+  height: 550px;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.cont_1 {
+  width: 50%;
+  height: fit-content;
+  margin-top: 30px;
+  float: left;
+}
+.cont_2 {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url("phne.png"); /* The image  /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  width: 50%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.p1 {
+  font-size: 33px;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+.p2 {
+  text-align: justify;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.34;
+  word-spacing: -1px;
+}
+
+.p3 {
+  color: #5e5e5e;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.p4 {
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 1000px;
+}
+.link {
+  text-decoration: none;
 }
